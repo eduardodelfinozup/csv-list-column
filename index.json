@@ -1,0 +1,25 @@
+{
+  "stack_name": "csv-list-column",
+  "stack_type": "local",
+  "stack_path": "/home/eduardodelfino/Documentos/cursos/HANDORA/curso1-stackspot/csv-list-column",
+  "stack_remote": [],
+  "plugins": {
+    "csv-list-column-plugin": {
+      "description": "criando plugin para gerar colunas e leitura de arquivos csv",
+      "types": [
+        "app"
+      ],
+      "path": "/home/eduardodelfino/.stk/stacks/csv-list-column/csv-list-column-plugin",
+      "latest_version": "Sem release"
+    },
+    "csv-list-column-template": {
+      "description": "Script em python para ler um aquivo csv e listar a coluna desejada com aspas simples.",
+      "types": [
+        "app-template"
+      ],
+      "path": "/home/eduardodelfino/.stk/stacks/csv-list-column/csv-list-column-template",
+      "latest_version": "Sem release"
+    }
+  },
+  "tasks": {}
+}

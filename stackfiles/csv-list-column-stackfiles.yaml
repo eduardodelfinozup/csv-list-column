@@ -1,0 +1,7 @@
+type: app
+description: Exemplo em python que aplica o template csv-list-column-template e o
+  plugin csv-list-column-plugin, para listar colunas formatadas com aspas simples.
+template: csv-list-column/csv-list-column-template
+plugins:
+- plugin: csv-list-column/csv-list-column-plugin
+
