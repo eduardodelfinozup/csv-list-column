@@ -2,12 +2,9 @@ import sys
 sys.path.append('/formatador/')
 from util.csv_util import delimitador_csv as ler_csv_virgula
 
-
-#TODO: FORMATAR A COLUNA
 def executar_formatador(name_csv, coluna, delimiter_):
     try:
         var = list()
-        #TODO: LISTA DOS CUSTOMER
         for customerList in ler_csv_virgula(name_csv, delimiter_):
             parametro = customerList[coluna]
             print("'" + str(parametro) + "',")
@@ -28,7 +25,6 @@ def createTxt(s):
         arquivo.writelines(s)
         arquivo.close()
 
-
 def getTotal(var):
     return len(var)
 
@@ -42,17 +38,12 @@ def main():
         #---------------------------------------------------------------------------------------------------------------
 
         if not name_csv:
-
             print('Voce esqueceu passar o nome do arquivo csv')
-
         else:
-
             executar_formatador(name_csv, coluna, delimitador)
 
     except Exception as ex:
-
         print('ERROR: %s' % ex)
-
     finally:
         print('OK')
 
