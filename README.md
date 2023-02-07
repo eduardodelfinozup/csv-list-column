@@ -1,5 +1,10 @@
 # csv-list-column
 stack para lista coluna de um csv
+script em python
+deverar ter as entradas:
+nome do csv ex: test-123
+coluna      ex: 2
+delimitador ex: , 
 
 # Índice
 * [util/arquivo](#colocar o arquivo csv para leitura aqui)
