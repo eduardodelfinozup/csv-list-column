@@ -10,8 +10,8 @@ from pathlib import Path
 # with open('arquivo/' + name_arquivo_csv + '.csv', 'a', newline='') as saida:
 
 # TODO CRIA A PASTA arquivo DENTRO Downloads
-# Path('/home/eduardo/Downloads/recentes/arquivo').mkdir(exist_ok=True)
-# with open('/home/eduardo/Downloads/recentes/arquivo/' + name_arquivo_csv + '.csv', 'w', newline='') as saida:
+# Path('/home/usuario/Downloads/recentes/arquivo').mkdir(exist_ok=True)
+# with open('/home/usuario/Downloads/recentes/arquivo/' + name_arquivo_csv + '.csv', 'w', newline='') as saida:
 # ---------------------------------------------------------------------------------------------------------------------
 
 
