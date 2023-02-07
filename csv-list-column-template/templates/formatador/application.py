@@ -35,9 +35,6 @@ def getTotal(var):
 def main():
     try:
         #---------------------------------------------------------------------------------------------------------------
-        # TODO NOME DO CSV
-        #TODO: O ARQUIVO ESTA NA PASTA  jobs.automacao.happy.migracao.camunda.util.arquivo
-
         name_csv = '{{inputs.nome_arquivo_csv}}'
         coluna = {{inputs.posicao_coluna}}
         delimitador = '{{inputs.delimitador_csv}}'
